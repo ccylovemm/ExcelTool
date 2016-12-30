@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row id="101" name="聚义堂-人数上限" FUN1="35" FUN2="40" FUN3="45" FUN4="50" FUN5="55" FUN6="60" FUN7="65" FUN8="70" FUN9="75" FUN10="80" />
+	<Row id="102" name="聚义堂-BOSS战开放" FUN1="1" FUN2="2" FUN3="3" FUN4="4" FUN5="5" FUN6="6" FUN7="7" FUN8="8" FUN9="9" FUN10="10" />
+	<Row id="301" name="金库-薪俸" FUN1="0" FUN2="500000" FUN3="750000" FUN4="1000000" FUN5="1250000" FUN6="1500000" FUN7="1750000" FUN8="2000000" FUN9="2250000" FUN10="2750000" />
+</Table>

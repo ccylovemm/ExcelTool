@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row id="1" taskName="青云之志" taskDescribe="在天梯中{0}连胜。" spanMin="3" spanMax="5" rewardType="1" rewardID="7" rewardQuantity="200" />
+	<Row id="2" taskName="马革裹尸" taskDescribe="挑战天梯玩家{0}次。" spanMin="5" spanMax="8" rewardType="3" rewardID="1" rewardQuantity="8888" />
+	<Row id="3" taskName="津津乐道" taskDescribe="点赞其他玩家{0}次。" spanMin="6" spanMax="10" rewardType="3" rewardID="1" rewardQuantity="9999" />
+	<Row id="4" taskName="不屈不挠" taskDescribe="在一场战斗中坚挺{0}分钟。" spanMin="2" spanMax="2" rewardType="1" rewardID="7" rewardQuantity="200" />
+	<Row id="5" taskName="战前鼓舞" taskDescribe="选择战前BUFF{0}次。" spanMin="1" spanMax="3" rewardType="1" rewardID="7" rewardQuantity="10000" />
+	<Row id="6" taskName="相煎太急" taskDescribe="挑战和自己同一重天的玩家{0}次。" spanMin="3" spanMax="5" rewardType="2" rewardID="6" rewardQuantity="10" />
+	<Row id="7" taskName="眼疾手快" taskDescribe="清除等待CD{0}次。" spanMin="3" spanMax="5" rewardType="3" rewardID="1" rewardQuantity="10000" />
+	<Row id="8" taskName="同门切磋" taskDescribe="挑战同一职业的玩家{0}次。" spanMin="3" spanMax="5" rewardType="1" rewardID="7" rewardQuantity="200" />
+	<Row id="9" taskName="正本清源" taskDescribe="挑战不同职业的玩家{0}次。" spanMin="3" spanMax="5" rewardType="1" rewardID="7" rewardQuantity="200" />
+	<Row id="10" taskName="百炼成钢" taskDescribe="挑战其他玩家，胜利{0}次。" spanMin="3" spanMax="5" rewardType="1" rewardID="7" rewardQuantity="10000" />
+</Table>

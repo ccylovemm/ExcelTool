@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row itemid="113" type="1" level="1" rat="10000" num="1" falitemid="0" falnum="0" bind="0" needmat1="111" num1="1" needmat2="112" num2="1" needmat3="117" num3="1" needgold="1" />
+	<Row itemid="116" type="1" level="1" rat="10000" num="1" falitemid="0" falnum="0" bind="0" needmat1="114" num1="1" needmat2="115" num2="1" needmat3="117" num3="1" needgold="2" />
+	<Row itemid="128" type="2" level="1" rat="5000" num="1" falitemid="0" falnum="0" bind="0" needmat1="117" num1="1" needmat2="108" num2="1" needmat3="0" num3="0" needgold="4" />
+</Table>

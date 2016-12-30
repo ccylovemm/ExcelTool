@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ItemLevel="1" miradd="10000" poweradd="5000" propadd="5000" />
+	<Row ItemLevel="2" miradd="10000" poweradd="5000" propadd="5000" />
+	<Row ItemLevel="3" miradd="10000" poweradd="5000" propadd="5000" />
+	<Row ItemLevel="4" miradd="10000" poweradd="5000" propadd="5000" />
+	<Row ItemLevel="5" miradd="10000" poweradd="5000" propadd="5000" />
+	<Row ItemLevel="6" miradd="10000" poweradd="5000" propadd="5000" />
+	<Row ItemLevel="7" miradd="10000" poweradd="5000" propadd="5000" />
+	<Row ItemLevel="8" miradd="10000" poweradd="5000" propadd="5000" />
+	<Row ItemLevel="9" miradd="10000" poweradd="5000" propadd="5000" />
+</Table>

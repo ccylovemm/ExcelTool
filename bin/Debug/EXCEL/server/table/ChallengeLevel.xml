@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row id="1" level="凡仙" needCredit="0" phyattack="120" magattack="120" phydefense="30" magdefense="30" maxhp="240" hit="50" damageBonus="3%" crit="50" />
+	<Row id="2" level="上仙" needCredit="9000" phyattack="400" magattack="400" phydefense="100" magdefense="100" maxhp="800" hit="150" damageBonus="5%" crit="150" />
+	<Row id="3" level="高仙" needCredit="46000" phyattack="800" magattack="800" phydefense="240" magdefense="240" maxhp="1800" hit="350" damageBonus="7%" crit="350" />
+	<Row id="4" level="太仙" needCredit="144000" phyattack="1600" magattack="1600" phydefense="400" magdefense="400" maxhp="3000" hit="650" damageBonus="9%" crit="650" />
+	<Row id="5" level="玄仙" needCredit="351000" phyattack="2600" magattack="2600" phydefense="700" magdefense="700" maxhp="5000" hit="1150" damageBonus="11%" crit="1150" />
+	<Row id="6" level="灵仙" needCredit="726000" phyattack="4000" magattack="4000" phydefense="1000" magdefense="1000" maxhp="8000" hit="1750" damageBonus="13%" crit="1750" />
+	<Row id="7" level="至仙" needCredit="1345000" phyattack="6000" magattack="6000" phydefense="1500" magdefense="1500" maxhp="12000" hit="2500" damageBonus="15%" crit="2500" />
+	<Row id="8" level="真仙" needCredit="2295000" phyattack="8000" magattack="8000" phydefense="2000" magdefense="2000" maxhp="17000" hit="3500" damageBonus="17%" crit="3500" />
+	<Row id="9" level="圣仙" needCredit="3675000" phyattack="11000" magattack="11000" phydefense="2800" magdefense="2800" maxhp="22000" hit="4800" damageBonus="19%" crit="4800" />
+</Table>

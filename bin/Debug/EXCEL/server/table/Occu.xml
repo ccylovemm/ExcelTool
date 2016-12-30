@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row Job="1" JobStage="1" Name="剑士" />
+	<Row Job="1" JobStage="2" Name="骑士" />
+	<Row Job="1" JobStage="3" Name="神骑士" />
+	<Row Job="1" JobStage="4" Name="神圣骑士" />
+	<Row Job="2" JobStage="1" Name="弓箭手" />
+	<Row Job="2" JobStage="2" Name="圣射手" />
+	<Row Job="2" JobStage="3" Name="神射手" />
+	<Row Job="2" JobStage="4" Name="神圣射手" />
+	<Row Job="3" JobStage="1" Name="魔法师" />
+	<Row Job="3" JobStage="2" Name="魔导师" />
+	<Row Job="3" JobStage="3" Name="神导师" />
+	<Row Job="3" JobStage="4" Name="神圣导师" />
+</Table>

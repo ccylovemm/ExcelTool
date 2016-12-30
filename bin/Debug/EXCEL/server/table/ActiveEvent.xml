@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row id="1" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="" retrieveReward="" />
+	<Row id="2" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="1" retrieveReward="1_1_10,2_1_20" />
+	<Row id="3" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="1" retrieveReward="2_1_20,3_1_30" />
+	<Row id="4" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="1" retrieveReward="5_1_10,2_1_20,3_1_30" />
+	<Row id="5" times="1" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="" retrieveReward="" />
+	<Row id="6" times="1" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="" retrieveReward="" />
+	<Row id="7" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="" retrieveReward="" />
+	<Row id="8" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="" retrieveReward="" />
+	<Row id="9" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="" retrieveReward="" />
+	<Row id="10" times="1" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="" retrieveReward="" />
+	<Row id="11" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="" retrieveReward="" />
+	<Row id="12" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="" retrieveReward="" />
+	<Row id="13" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="" retrieveReward="" />
+	<Row id="14" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="" retrieveReward="" />
+	<Row id="15" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="1" retrieveReward="5_1_10,3_1_20,4_1_30" />
+	<Row id="16" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="1" retrieveReward="5_1_10,3_1_20,4_1_30" />
+	<Row id="17" times="2" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="1" retrieveReward="5_1_10,3_1_20,4_1_30" />
+	<Row id="18" times="1" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="1" retrieveReward="5_1_10,3_1_20,4_1_30" />
+	<Row id="19" times="1" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="1" retrieveReward="5_1_10,3_1_20,4_1_30" />
+	<Row id="20" times="1" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="1" retrieveReward="5_1_10,3_1_20,4_1_30" />
+	<Row id="21" times="1" activeDegree="5" reward="1_1_40,2_1_45" retrieveSilver="100" retrieveGold="50" isRetrieve="1" retrieveReward="5_1_10,3_1_20,4_1_30" />
+</Table>

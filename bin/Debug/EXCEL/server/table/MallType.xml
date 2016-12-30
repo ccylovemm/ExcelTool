@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" level="1" subTab="药品" />
+	<Row ID="2" level="2" subTab="抢购,常用,消耗,限购" />
+	<Row ID="3" level="3" subTab="常用" />
+</Table>

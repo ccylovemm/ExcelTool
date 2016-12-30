@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row set="1" type="1" grade="0" needlvl="1" time1="5" CD1="600" cost1="1,10" cost10="1,90" rates="80,20,100,600,2300,6400,500" protect="6" logtype="" activity="" name="精品福袋" />
+	<Row set="2" type="2" grade="100" needlvl="1" time1="1" CD1="172800" cost1="2,288" cost10="2,2580" rates="80,20,100,600,2300,6400,500" protect="7" logtype="" activity="" name="仙品福袋" />
+	<Row set="3" type="2" grade="300" needlvl="1" time1="1" CD1="172800" cost1="2,288" cost10="2,2580" rates="80,20,100,600,2300,6400,500" protect="7" logtype="" activity="" name="仙品福袋" />
+	<Row set="4" type="2" grade="500" needlvl="1" time1="1" CD1="172800" cost1="2,288" cost10="2,2580" rates="80,20,100,600,2300,6400,500" protect="7" logtype="" activity="" name="仙品福袋" />
+	<Row set="5" type="2" grade="-1" needlvl="1" time1="1" CD1="172800" cost1="2,288" cost10="2,2580" rates="80,20,100,600,2300,6400,500" protect="7" logtype="" activity="" name="仙品福袋" />
+</Table>

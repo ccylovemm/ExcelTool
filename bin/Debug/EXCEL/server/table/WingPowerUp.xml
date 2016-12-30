@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row id="1" rat="10000" PropID1="7" Value1="5" PropID2="8" Value2="5" PropID3="9" Value3="5" PropID4="10" Value4="5" PropID5="11" Value5="25" PropID6="12" Value6="2" PropID7="13" Value7="2" needmat1="118" num1="1" needgold="0" />
+	<Row id="2" rat="8000" PropID1="7" Value1="10" PropID2="8" Value2="10" PropID3="9" Value3="10" PropID4="10" Value4="10" PropID5="11" Value5="50" PropID6="12" Value6="4" PropID7="13" Value7="4" needmat1="118" num1="2" needgold="0" />
+	<Row id="3" rat="7000" PropID1="7" Value1="18" PropID2="8" Value2="18" PropID3="9" Value3="18" PropID4="10" Value4="18" PropID5="11" Value5="88" PropID6="12" Value6="7" PropID7="13" Value7="7" needmat1="118" num1="3" needgold="0" />
+	<Row id="4" rat="6000" PropID1="7" Value1="28" PropID2="8" Value2="28" PropID3="9" Value3="28" PropID4="10" Value4="28" PropID5="11" Value5="138" PropID6="12" Value6="11" PropID7="13" Value7="11" needmat1="118" num1="4" needgold="0" />
+	<Row id="5" rat="5000" PropID1="7" Value1="40" PropID2="8" Value2="40" PropID3="9" Value3="40" PropID4="10" Value4="40" PropID5="11" Value5="200" PropID6="12" Value6="16" PropID7="13" Value7="16" needmat1="118" num1="5" needgold="0" />
+	<Row id="6" rat="4000" PropID1="7" Value1="55" PropID2="8" Value2="55" PropID3="9" Value3="55" PropID4="10" Value4="55" PropID5="11" Value5="275" PropID6="12" Value6="22" PropID7="13" Value7="22" needmat1="118" num1="6" needgold="0" />
+	<Row id="7" rat="3000" PropID1="7" Value1="73" PropID2="8" Value2="73" PropID3="9" Value3="73" PropID4="10" Value4="73" PropID5="11" Value5="363" PropID6="12" Value6="29" PropID7="13" Value7="29" needmat1="118" num1="7" needgold="0" />
+	<Row id="8" rat="2000" PropID1="7" Value1="93" PropID2="8" Value2="93" PropID3="9" Value3="93" PropID4="10" Value4="93" PropID5="11" Value5="463" PropID6="12" Value6="37" PropID7="13" Value7="37" needmat1="118" num1="8" needgold="0" />
+	<Row id="9" rat="2000" PropID1="7" Value1="115" PropID2="8" Value2="115" PropID3="9" Value3="115" PropID4="10" Value4="115" PropID5="11" Value5="575" PropID6="12" Value6="46" PropID7="13" Value7="46" needmat1="118" num1="9" needgold="0" />
+</Table>

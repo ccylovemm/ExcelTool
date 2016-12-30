@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row id="1" set="1" itemid="101" bind="0" number="1" type="1" rate="2500" />
+	<Row id="2" set="1" itemid="101" bind="0" number="2" type="1" rate="2000" />
+	<Row id="3" set="1" itemid="101" bind="0" number="3" type="1" rate="1800" />
+	<Row id="4" set="1" itemid="101" bind="0" number="4" type="1" rate="1500" />
+	<Row id="5" set="1" itemid="101" bind="0" number="5" type="1" rate="1200" />
+	<Row id="6" set="1" itemid="101" bind="0" number="6" type="1" rate="1000" />
+	<Row id="7" set="1" itemid="102" bind="0" number="2" type="2" rate="10000" />
+	<Row id="8" set="1" itemid="103" bind="0" number="3" type="3" rate="10000" />
+	<Row id="9" set="1" itemid="104" bind="0" number="4" type="4" rate="10000" />
+	<Row id="10" set="1" itemid="105" bind="0" number="5" type="5" rate="10000" />
+	<Row id="11" set="1" itemid="106" bind="0" number="6" type="6" rate="10000" />
+	<Row id="12" set="1" itemid="107" bind="0" number="7" type="7" rate="10000" />
+	<Row id="13" set="2" itemid="110" bind="0" number="1" type="1" rate="2100" />
+	<Row id="14" set="2" itemid="111" bind="0" number="2" type="2" rate="1900" />
+	<Row id="15" set="2" itemid="112" bind="0" number="3" type="3" rate="1700" />
+	<Row id="16" set="2" itemid="113" bind="0" number="4" type="4" rate="1500" />
+	<Row id="17" set="2" itemid="114" bind="0" number="5" type="5" rate="1200" />
+	<Row id="18" set="2" itemid="115" bind="0" number="6" type="6" rate="1000" />
+	<Row id="19" set="2" itemid="116" bind="0" number="7" type="7" rate="600" />
+</Table>

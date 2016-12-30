@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row id="1" rat="10000" needmat1="119" num1="0" progress="0" needgold="0" PropID1="7" Value1="100" PropID2="8" Value2="100" PropID3="9" Value3="100" PropID4="10" Value4="100" PropID5="11" Value5="500" PropID6="26" Value6="500" />
+	<Row id="2" rat="10000" needmat1="119" num1="1" progress="8" needgold="0" PropID1="7" Value1="160" PropID2="8" Value2="160" PropID3="9" Value3="160" PropID4="10" Value4="160" PropID5="11" Value5="1100" PropID6="26" Value6="650" />
+	<Row id="3" rat="10000" needmat1="119" num1="2" progress="12" needgold="0" PropID1="7" Value1="250" PropID2="8" Value2="250" PropID3="9" Value3="250" PropID4="10" Value4="250" PropID5="11" Value5="2000" PropID6="26" Value6="900" />
+	<Row id="4" rat="10000" needmat1="119" num1="4" progress="16" needgold="0" PropID1="7" Value1="400" PropID2="8" Value2="400" PropID3="9" Value3="400" PropID4="10" Value4="400" PropID5="11" Value5="3500" PropID6="26" Value6="1250" />
+	<Row id="5" rat="10000" needmat1="119" num1="6" progress="20" needgold="0" PropID1="7" Value1="640" PropID2="8" Value2="640" PropID3="9" Value3="640" PropID4="10" Value4="640" PropID5="11" Value5="5900" PropID6="26" Value6="1700" />
+	<Row id="6" rat="10000" needmat1="119" num1="8" progress="24" needgold="0" PropID1="7" Value1="1000" PropID2="8" Value2="1000" PropID3="9" Value3="1000" PropID4="10" Value4="1000" PropID5="11" Value5="9500" PropID6="26" Value6="2250" />
+	<Row id="7" rat="10000" needmat1="119" num1="12" progress="28" needgold="0" PropID1="7" Value1="1510" PropID2="8" Value2="1510" PropID3="9" Value3="1510" PropID4="10" Value4="1510" PropID5="11" Value5="14600" PropID6="26" Value6="2900" />
+	<Row id="8" rat="10000" needmat1="119" num1="16" progress="32" needgold="0" PropID1="7" Value1="2200" PropID2="8" Value2="2200" PropID3="9" Value3="2200" PropID4="10" Value4="2200" PropID5="11" Value5="21500" PropID6="26" Value6="3650" />
+	<Row id="9" rat="10000" needmat1="119" num1="20" progress="36" needgold="0" PropID1="7" Value1="3100" PropID2="8" Value2="3100" PropID3="9" Value3="3100" PropID4="10" Value4="3100" PropID5="11" Value5="30500" PropID6="26" Value6="4500" />
+</Table>

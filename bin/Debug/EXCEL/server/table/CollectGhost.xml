@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row id="20100" name="猪妖" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20101" name="骷髅" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20102" name="赤练蛇" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20103" name="魑魅" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20104" name="牛妖" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20105" name="鹫精" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20106" name="夜叉" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20107" name="菩提树精" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20108" name="索命判官" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20109" name="尸蝎王" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20110" name="瞌睡虫" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20111" name="竹妖" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20113" name="魔猿" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20114" name="魔石怪" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20115" name="无花果" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20116" name="妖童" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20117" name="鬼童子" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20118" name="妖果娃娃" green="1" blue="2" purple="4" golden="8" />
+	<Row id="20119" name="魔悟空" green="1" blue="2" purple="4" golden="8" />
+</Table>

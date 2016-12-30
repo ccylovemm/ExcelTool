@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row id="1" name="合十" level="40" group="2" addPropertyID="12" value="500" explain="合并两掌于当胸，宁神静思，恭敬礼拜，手为神之所持，心为圣之所至。心神两相忘，浮华皆虚妄。" actor="菩提老祖" />
+	<Row id="2" name="霜花" level="60" group="3" addPropertyID="10" value="525" explain="落霜本无情，纤花却有灵。冷目凝观，观肃霜万里弥散，寒耳静听，听凄花几回痴缠。" actor="女娲娘娘" />
+	<Row id="3" name="云轮" level="100" group="4" addPropertyID="13" value="550" explain="云中盼，仙风道骨驾云为轮，仿若锦衣连綿；云中叹，气贯长虹驱云成轮，恰似过眼云烟。" actor="接引道人" />
+	<Row id="4" name="灵枢" level="150" group="6" addPropertyID="14" value="575" explain="灵机巧变，指掌万亘江山，统茫茫大千；恒静无言，枢钮千路尘寰，御渺渺重天。" actor="元始天尊" />
+	<Row id="5" name="丹田" level="200" group="6" addPropertyID="5" value="120" explain="运气默祷，神鬼不敢侵扰，万法集于一腰；汇精固道，群魔竞相哀嚎，一指可除万妖。" actor="广成子" />
+	<Row id="6" name="璇玑" level="220" group="6" addPropertyID="15" value="625" explain="鸿蒙夜昼，得即高歌失即休，风华一场惊鸿曲，念悠悠；沧海九州，几番秋雨几番愁，纵横百战惊天怒，不回眸。" actor="普贤真人" />
+	<Row id="7" name="逆鳞" level="300" group="6" addPropertyID="16" value="22" explain="合十，即合并两掌于当胸， 集中心思，恭敬礼拜，本为印度古代所行敬礼之法。" actor="" />
+	<Row id="8" name="鸩杀" level="350" group="6" addPropertyID="14" value="22" explain="合十，即合并两掌于当胸， 集中心思，恭敬礼拜，本为印度古代所行敬礼之法。" actor="" />
+	<Row id="9" name="鹤井" level="400" group="4" addPropertyID="12" value="22" explain="合十，即合并两掌于当胸， 集中心思，恭敬礼拜，本为印度古代所行敬礼之法。" actor="" />
+	<Row id="10" name="渊鱼" level="450" group="6" addPropertyID="11" value="22" explain="合十，即合并两掌于当胸， 集中心思，恭敬礼拜，本为印度古代所行敬礼之法。" actor="" />
+	<Row id="11" name="玉衡" level="500" group="6" addPropertyID="9" value="22" explain="合十，即合并两掌于当胸， 集中心思，恭敬礼拜，本为印度古代所行敬礼之法。" actor="" />
+	<Row id="12" name="心莲" level="550" group="6" addPropertyID="11" value="22" explain="合十，即合并两掌于当胸， 集中心思，恭敬礼拜，本为印度古代所行敬礼之法。" actor="" />
+	<Row id="13" name="瑶光" level="600" group="6" addPropertyID="10" value="22" explain="合十，即合并两掌于当胸， 集中心思，恭敬礼拜，本为印度古代所行敬礼之法。" actor="" />
+	<Row id="14" name="五蕴" level="650" group="5" addPropertyID="5" value="22" explain="合十，即合并两掌于当胸， 集中心思，恭敬礼拜，本为印度古代所行敬礼之法。" actor="" />
+	<Row id="15" name="六根" level="700" group="6" addPropertyID="9" value="22" explain="合十，即合并两掌于当胸， 集中心思，恭敬礼拜，本为印度古代所行敬礼之法。" actor="" />
+</Table>

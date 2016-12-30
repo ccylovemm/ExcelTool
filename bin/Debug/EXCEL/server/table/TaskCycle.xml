@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table>
+	<Row ID="1" name="日常任务" MinLevel="1" MaxLevel="9" count="10" TaskIdBank="2001,2002,2003,2004" rewardsStr="5_0_1000,1_0_1000,10001_1_1,10011_1_1,10021_1_1,10031_1_1,5_0_900" Type="3" key="DailyTaskLoop" activeEventId="2" />
+	<Row ID="2" name="日常任务" MinLevel="10" MaxLevel="19" count="10" TaskIdBank="2001,2002,2003,2004" rewardsStr="5_0_1000,1_0_1000,10001_1_1,10011_1_1,10021_1_1,10031_1_1,5_0_900" Type="3" key="DailyTaskLoop" activeEventId="2" />
+	<Row ID="3" name="日常任务" MinLevel="20" MaxLevel="29" count="10" TaskIdBank="2001,2002,2003,2004" rewardsStr="5_0_1000,1_0_1000,10001_1_1,10011_1_1,10021_1_1,10031_1_1,5_0_900" Type="3" key="DailyTaskLoop" activeEventId="2" />
+	<Row ID="4" name="日常任务" MinLevel="30" MaxLevel="39" count="10" TaskIdBank="2001,2002,2003,2004" rewardsStr="5_0_1000,1_0_1000,10001_1_1,10011_1_1,10021_1_1,10031_1_1,5_0_900" Type="3" key="DailyTaskLoop" activeEventId="2" />
+	<Row ID="4001" name="日常任务" MinLevel="1" MaxLevel="9" count="10" TaskIdBank="4001,4002,4003,4004" rewardsStr="5_0_1000,1_0_1000,10001_1_1,10011_1_1,10021_1_1,10031_1_1,5_0_900" Type="4" key="TribeTaskLoop" activeEventId="4" />
+	<Row ID="4002" name="日常任务" MinLevel="10" MaxLevel="19" count="10" TaskIdBank="4001,4002,4003,4004" rewardsStr="5_0_1000,1_0_1000,10001_1_1,10011_1_1,10021_1_1,10031_1_1,5_0_900" Type="4" key="TribeTaskLoop" activeEventId="4" />
+	<Row ID="4003" name="日常任务" MinLevel="20" MaxLevel="29" count="10" TaskIdBank="4001,4002,4003,4004" rewardsStr="5_0_1000,1_0_1000,10001_1_1,10011_1_1,10021_1_1,10031_1_1,5_0_900" Type="4" key="TribeTaskLoop" activeEventId="4" />
+	<Row ID="4004" name="日常任务" MinLevel="30" MaxLevel="39" count="10" TaskIdBank="4001,4002,4003,4004" rewardsStr="5_0_1000,1_0_1000,10001_1_1,10011_1_1,10021_1_1,10031_1_1,5_0_900" Type="4" key="TribeTaskLoop" activeEventId="4" />
+</Table>
