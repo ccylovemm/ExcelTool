@@ -18,8 +18,12 @@ namespace ExcelTool
         {
             if (Directory.Exists("Excel"))
             {
-                string[] files = Directory.GetFiles("Excel", "*.xlsx");
-
+                if (Directory.Exists("Out"))
+                {
+                    DirectoryInfo outFile = new DirectoryInfo("Out");
+                    outFile.Delete(true);
+                }
+                string[] files = Directory.GetFiles("Excel", "*.xlsx");         
                 for (int i = 0; i < files.Length; i++)
                 {
                     FileStream excelFile = File.Open(files[i], FileMode.Open, FileAccess.Read);
@@ -33,6 +37,7 @@ namespace ExcelTool
                     CodeExport.Export(files[i], sheet);
                 }
                 CodeExport.ExportReadFile(files);
+                Console.Write("导出结束");
             }
         }
     }

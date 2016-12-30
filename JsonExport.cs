@@ -30,13 +30,18 @@ namespace ExcelTool
 
                 jsonData.Add(rowData);
             }
-
+            if (!Directory.Exists("Out/Config"))
+            {
+                Directory.CreateDirectory("Out/Config");
+            }
+            fileName = Path.GetFileNameWithoutExtension(fileName);
             string json = JsonConvert.SerializeObject(jsonData, Formatting.Indented);
-            FileStream file = new FileStream("Out/Config/" + fileName.Split('.')[0] + ".json", FileMode.Create, FileAccess.Write);
-            TextWriter writer = new StreamWriter(file);
+            FileStream stream = new FileStream("Out/Config/" + fileName + ".json", FileMode.Create, FileAccess.Write);
+            TextWriter writer = new StreamWriter(stream);
             writer.Write(json);
             writer.Close();
-            file.Close();
+            stream.Close();
+            Console.Write(fileName + ".json\n");
         }
     }
 }

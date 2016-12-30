@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Table>
-	<Row id2="0" fireid2="0" fireid3="0" fireid4="0" fireid5="0" />
-	<Row id2="1" fireid2="500" fireid3="0" fireid4="0" fireid5="0" />
-	<Row id2="2" fireid2="2000" fireid3="500" fireid4="0" fireid5="0" />
-	<Row id2="3" fireid2="4000" fireid3="2000" fireid4="1000" fireid5="0" />
-	<Row id2="4" fireid2="8000" fireid3="4000" fireid4="2000" fireid5="500" />
-	<Row id2="5" fireid2="10000" fireid3="8000" fireid4="4000" fireid5="2000" />
-</Table>

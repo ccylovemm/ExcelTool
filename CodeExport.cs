@@ -40,11 +40,14 @@ namespace ExcelTool
 
         static private void ExportConfig(string fileName, List<FieldDef> dataFiled)
         {
+            fileName = Path.GetFileNameWithoutExtension(fileName);
+
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("//************************************************************");
             stringBuilder.AppendLine("// Auto Generated Code By ExcelTool");
             stringBuilder.AppendLine("// Copyright(c) Cao ChunYang  All rights reserved.");
             stringBuilder.AppendLine("//************************************************************");
+            stringBuilder.AppendLine();
             stringBuilder.AppendLine();
             stringBuilder.AppendFormat("public class {0}\r\n{{", fileName + "Config");
             stringBuilder.AppendLine();
@@ -52,21 +55,30 @@ namespace ExcelTool
             stringBuilder.AppendLine();
             stringBuilder.AppendLine("\tpublic void Read()");
             stringBuilder.AppendLine("\t{");
-            stringBuilder.AppendFormat("\t\tstring json = ResourceManager.ReadText({0});", fileName + ".json");
+            stringBuilder.AppendLine();
+            stringBuilder.AppendFormat("\t\tstring json = ResourceManager.ReadText(\"{0}\");", fileName + ".json");
+            stringBuilder.AppendLine();
             stringBuilder.AppendFormat("\t\titems = Json.Deserialize(jsont) as Dictionary<string, {0}>;", fileName + "Vo");
+            stringBuilder.AppendLine();
             stringBuilder.AppendLine("\t}");
             stringBuilder.Append('}');
             stringBuilder.AppendLine();
 
-            FileStream file = new FileStream("Out/Code/" + fileName + "Config.cs", FileMode.Create, FileAccess.Write);
-            TextWriter writer = new StreamWriter(file);
+            if (!Directory.Exists("Out/Code"))
+            {
+                Directory.CreateDirectory("Out/Code");
+            }
+            FileStream stream = new FileStream("Out/Code/" + fileName + "Config.cs", FileMode.Create, FileAccess.Write);
+            TextWriter writer = new StreamWriter(stream);
             writer.Write(stringBuilder.ToString());
             writer.Close();
-            file.Close();
+            stream.Close();
+            Console.Write(fileName + "Config.cs\n");
         }
 
         static private void ExportVo(string fileName , List<FieldDef> dataFiled)
         {
+            fileName = Path.GetFileNameWithoutExtension(fileName);
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("//************************************************************");
             stringBuilder.AppendLine("// Auto Generated Code By ExcelTool");
@@ -74,6 +86,7 @@ namespace ExcelTool
             stringBuilder.AppendLine("//************************************************************");
             stringBuilder.AppendLine();
             stringBuilder.AppendFormat("public class {0}\r\n{{", fileName);
+            stringBuilder.AppendLine();
             stringBuilder.AppendLine();
 
             foreach (FieldDef field in dataFiled)
@@ -85,11 +98,17 @@ namespace ExcelTool
             stringBuilder.Append('}');
             stringBuilder.AppendLine();
 
-            FileStream file = new FileStream("Out/Code/" + fileName + "Vo.cs", FileMode.Create, FileAccess.Write);
-            TextWriter writer = new StreamWriter(file);
+            if (!Directory.Exists("Out/Code"))
+            {
+                Directory.CreateDirectory("Out/Code");
+            }
+         
+            FileStream stream = new FileStream("Out/Code/" + fileName + "Vo.cs", FileMode.Create, FileAccess.Write);
+            TextWriter writer = new StreamWriter(stream);
             writer.Write(stringBuilder.ToString());
             writer.Close();
-            file.Close();
+            stream.Close();
+            Console.Write(fileName + "Vo.cs\n");
         }
 
         static public void ExportReadFile(string[] files)
@@ -107,17 +126,24 @@ namespace ExcelTool
             stringBuilder.AppendLine("\t{");
             for (int i = 0; i < files.Length; i ++)
             {
-                stringBuilder.AppendFormat("\t\t{0}Config.Read();\r\n{{", files[i]);
+                string fileName = Path.GetFileNameWithoutExtension(files[i]);
+                stringBuilder.AppendFormat("\t\t{0}Config.Read();\r\n{{", fileName);
             }
             stringBuilder.AppendLine("\t}");
             stringBuilder.Append('}');
             stringBuilder.AppendLine();
 
-            FileStream file = new FileStream("Out/Code/CfgFiles.cs", FileMode.Create, FileAccess.Write);
-            TextWriter writer = new StreamWriter(file);
+            if (!Directory.Exists("Out/Code"))
+            {
+                Directory.CreateDirectory("Out/Code");
+            }
+
+            FileStream stream = new FileStream("Out/Code/CfgFiles.cs", FileMode.Create, FileAccess.Write);
+            TextWriter writer = new StreamWriter(stream);
             writer.Write(stringBuilder.ToString());
             writer.Close();
-            file.Close();
+            stream.Close();
+            Console.Write("CfgFiles.cs\n");
         }
     }
 }

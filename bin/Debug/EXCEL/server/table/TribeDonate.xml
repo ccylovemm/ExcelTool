@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Table>
-	<Row id="1" item1="150" type1="1" number1="0" con1="10" fund1="" item2="151" type2="2" number2="0" con2="10" fund2="" />
-	<Row id="2" item1="2" type1="3" number1="18" con1="20" fund1="100000" item2="" type2="" number2="" con2="" fund2="" />
-	<Row id="3" item1="2" type1="3" number1="98" con1="10" fund1="300000" item2="" type2="" number2="" con2="" fund2="" />
-	<Row id="4" item1="2" type1="3" number1="198" con1="10" fund1="500000" item2="" type2="" number2="" con2="" fund2="" />
-</Table>

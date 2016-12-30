@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Table>
-	<Row id="1" reason="连胜战报" likeTime="" belikeTime="100" loseTime="" beworshipTime="" />
-	<Row id="2" reason="前三名战服" likeTime="" belikeTime="100" loseTime="" beworshipTime="" />
-	<Row id="3" reason="终结连胜战报" likeTime="" belikeTime="100" loseTime="" beworshipTime="" />
-	<Row id="4" reason="点赞各种行为" likeTime="100" belikeTime="" loseTime="" beworshipTime="" />
-	<Row id="5" reason="连败次数" likeTime="" belikeTime="" loseTime="20" beworshipTime="" />
-	<Row id="6" reason="被膜拜次数" likeTime="" belikeTime="" loseTime="" beworshipTime="1000" />
-</Table>

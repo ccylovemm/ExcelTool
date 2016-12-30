@@ -23,3 +23,11 @@ E:\Ftp\ExcelTool\obj\Debug\ExcelTool.csprojResolveAssemblyReference.cache
 E:\GitHub\ExcelTool\obj\Debug\ExcelTool.csproj.ResolveComReference.cache
 E:\GitHub\ExcelTool\obj\Debug\ExcelTool.exe
 E:\GitHub\ExcelTool\obj\Debug\ExcelTool.pdb
+E:\GitHub\ExcelTool\bin\Debug\ExcelTool.exe
+E:\GitHub\ExcelTool\bin\Debug\ExcelTool.pdb
+E:\GitHub\ExcelTool\bin\Debug\Excel.dll
+E:\GitHub\ExcelTool\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\GitHub\ExcelTool\bin\Debug\Newtonsoft.Json.dll
+E:\GitHub\ExcelTool\bin\Debug\Excel.pdb
+E:\GitHub\ExcelTool\bin\Debug\Newtonsoft.Json.xml
+E:\GitHub\ExcelTool\obj\Debug\ExcelTool.csprojResolveAssemblyReference.cache

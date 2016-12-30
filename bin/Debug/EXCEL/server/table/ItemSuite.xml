@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Table>
-	<Row SuiteID="1" SuiteName="装备测试套装" SuiteStage="1" num="5" need1="100;123" need2="100;123" need3="100;123" need4="100;123" need5="100;123" SuitNum1="" PropID1="" Value1="" SuitNum2="" PropID2="" Value2="" SuitNum3="" PropID3="" Value3="" SuitNum4="" PropID4="" Value4="" SuitNum5="" PropID5="" Value5="" SuitNum6="" PropID6="" Value6="" SuitNum7="" PropID7="" Value7="" SuitNum8="" PropID8="" Value8="" SuitNum9="" PropID9="" Value9="" SuitNum10="" PropID10="" Value10="" />
-	<Row SuiteID="2" SuiteName="首饰测试套装" SuiteStage="1" num="3" need1="100;123" need2="100;123" need3="" need4="" need5="" SuitNum1="" PropID1="" Value1="" SuitNum2="" PropID2="" Value2="" SuitNum3="" PropID3="" Value3="" SuitNum4="" PropID4="" Value4="" SuitNum5="" PropID5="" Value5="" SuitNum6="" PropID6="" Value6="" SuitNum7="" PropID7="" Value7="" SuitNum8="" PropID8="" Value8="" SuitNum9="" PropID9="" Value9="" SuitNum10="" PropID10="" Value10="" />
-</Table>
