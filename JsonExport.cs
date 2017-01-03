@@ -12,35 +12,70 @@ namespace ExcelTool
     {
         static public void Export(string fileName , DataTable sheet)
         {
-            List<Dictionary<string, object>> jsonData = new List<Dictionary<string, object>>();
+            Dictionary<string , Dictionary<string, string>> client_jsonData = new Dictionary<string, Dictionary<string, string>>();
+            Dictionary<string , Dictionary<string, string>> server_jsonData = new Dictionary<string, Dictionary<string, string>>();
 
             int firstDataRow = 5;
             for (int i = firstDataRow; i < sheet.Rows.Count; i++)
             {
                 DataRow row = sheet.Rows[i];
-                var rowData = new Dictionary<string, object>();
+                var clientRowData = new Dictionary<string, string>();
+                var serverRowData = new Dictionary<string, string>();
+                var key = "";
                 foreach (DataColumn column in sheet.Columns)
                 {
-                    object value = row[column];
+                    string value = row[column].ToString();
                     string fieldName = column.ToString();
 
-                    if (!string.IsNullOrEmpty(fieldName))
-                        rowData[fieldName] = value;
+                    if (!string.IsNullOrEmpty(fieldName) && !fieldName.ToLower().Contains("column"))
+                    {
+                       string dataForm = sheet.Rows[2][column].ToString();
+                        if (dataForm.ToLower().Contains("key"))
+                        {
+                            clientRowData.Add(fieldName , value);
+                            serverRowData.Add(fieldName, value);
+                            key += value;
+                        }
+                        else
+                        {
+                            if (dataForm.ToLower().Contains("client"))
+                            {
+                                clientRowData.Add(fieldName, value);
+                            }
+                            if (dataForm.ToLower().Contains("server"))
+                            {
+                                serverRowData.Add(fieldName, value);
+                            }
+                        }
+                    }
                 }
-
-                jsonData.Add(rowData);
+                client_jsonData.Add(key , clientRowData);
+                server_jsonData.Add(key, serverRowData);
             }
-            if (!Directory.Exists("Out/Config"))
+
+            if (!Directory.Exists("Out/Client/Config"))
             {
-                Directory.CreateDirectory("Out/Config");
+                Directory.CreateDirectory("Out/Client/Config");
             }
             fileName = Path.GetFileNameWithoutExtension(fileName);
-            string json = JsonConvert.SerializeObject(jsonData, Formatting.Indented);
-            FileStream stream = new FileStream("Out/Config/" + fileName + ".json", FileMode.Create, FileAccess.Write);
-            TextWriter writer = new StreamWriter(stream);
-            writer.Write(json);
-            writer.Close();
-            stream.Close();
+            string jsonClient = JsonConvert.SerializeObject(client_jsonData, Formatting.Indented);
+            FileStream streamClient = new FileStream("Out/Client/Config/" + fileName + ".json", FileMode.Create, FileAccess.Write);
+            TextWriter writerClient = new StreamWriter(streamClient);
+            writerClient.Write(jsonClient);
+            writerClient.Close();
+            streamClient.Close();
+
+            if (!Directory.Exists("Out/Server/Config"))
+            {
+                Directory.CreateDirectory("Out/Server/Config");
+            }
+            string jsonServer = JsonConvert.SerializeObject(server_jsonData, Formatting.Indented);
+            FileStream streamServer = new FileStream("Out/Server/Config/" + fileName + ".json", FileMode.Create, FileAccess.Write);
+            TextWriter writerServer = new StreamWriter(streamServer);
+            writerServer.Write(jsonServer);
+            writerServer.Close();
+            streamServer.Close();
+
             Console.Write(fileName + ".json\n");
         }
     }
