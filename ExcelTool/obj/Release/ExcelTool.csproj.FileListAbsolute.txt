@@ -1,0 +1,14 @@
+E:\GitHub\ExcelTool\ExcelTool\bin\Release\ExcelTool.exe.config
+E:\GitHub\ExcelTool\ExcelTool\bin\Release\ExcelTool.exe
+E:\GitHub\ExcelTool\ExcelTool\bin\Release\ExcelTool.pdb
+E:\GitHub\ExcelTool\ExcelTool\bin\Release\Excel.dll
+E:\GitHub\ExcelTool\ExcelTool\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\GitHub\ExcelTool\ExcelTool\bin\Release\Newtonsoft.Json.dll
+E:\GitHub\ExcelTool\ExcelTool\bin\Release\Excel.pdb
+E:\GitHub\ExcelTool\ExcelTool\bin\Release\Newtonsoft.Json.xml
+E:\GitHub\ExcelTool\ExcelTool\obj\Release\ExcelTool.Form1.resources
+E:\GitHub\ExcelTool\ExcelTool\obj\Release\ExcelTool.Properties.Resources.resources
+E:\GitHub\ExcelTool\ExcelTool\obj\Release\ExcelTool.csproj.GenerateResource.Cache
+E:\GitHub\ExcelTool\ExcelTool\obj\Release\ExcelTool.exe
+E:\GitHub\ExcelTool\ExcelTool\obj\Release\ExcelTool.pdb
+E:\GitHub\ExcelTool\ExcelTool\obj\Release\ExcelTool.csprojResolveAssemblyReference.cache
