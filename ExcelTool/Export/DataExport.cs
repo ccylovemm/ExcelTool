@@ -25,11 +25,12 @@ namespace ExcelTool
 
                 for (int c = 0; c < sheet.Columns.Count; c ++ )
                 {
+                    if (sheet.Rows[2][sheet.Columns[c]].ToString().ToLower() == "skip") continue;
                     string filed = sheet.Columns[c].ToString().Replace(" ", "");
                     if (!string.IsNullOrEmpty(filed))
                     {
                         string value = sheet.Rows[i][sheet.Columns[c]].ToString();
-                        data.Add(filed, value);
+                        data.Add(filed, value == "" ? "0" : value);
                         point.SetAttribute(filed , value);
                     }
                 }
