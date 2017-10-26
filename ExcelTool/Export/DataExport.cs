@@ -44,7 +44,7 @@ namespace ExcelTool
             {
                 Directory.CreateDirectory(path);
             }
-            string json = JsonConvert.SerializeObject(jsonData, Newtonsoft.Json.Formatting.Indented);
+            string json = JsonConvert.SerializeObject(jsonData, Newtonsoft.Json.Formatting.None);
             FileStream stream = new FileStream(path + Path.GetFileNameWithoutExtension(fileName) + ".json", FileMode.Create, FileAccess.Write);
             TextWriter writer = new StreamWriter(stream);
             writer.Write(json);

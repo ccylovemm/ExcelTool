@@ -54,6 +54,7 @@ namespace ExcelTool
 
         private void ExportBtn_Click(object sender, EventArgs e)
         {
+            filePath = "./Excel/";
             if (filePath == "") return;
             string[] files = Directory.GetFiles(filePath, "*.xlsx");
             for (int i = 0; i < files.Length; i++)
@@ -72,7 +73,7 @@ namespace ExcelTool
                 listBox.SelectedIndex = listBox.Items.Count - 1;
             }
             CodeExport.ExportInitFile(files);
-            listBox.Items.Add("导出完成");
+            listBox.Items.Add("导出完成" + files.Length);
             listBox.SelectedIndex = listBox.Items.Count - 1;
         }
     }

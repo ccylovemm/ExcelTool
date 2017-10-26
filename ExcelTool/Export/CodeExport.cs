@@ -52,20 +52,35 @@ namespace ExcelTool
             stringBuilder.AppendLine();
             stringBuilder.AppendLine("using System;");
             stringBuilder.AppendLine("using System.Collections.Generic;");
+            stringBuilder.AppendLine("using MiniJSON;");
             stringBuilder.AppendLine();
             stringBuilder.AppendFormat("public class {0}\r\n{{", fileName + "Vo");
             stringBuilder.AppendLine();
+            bool hasKey = false;
             foreach (FieldDef field in dataFiled)
             {
-                stringBuilder.AppendFormat("\tpublic {0} {1}; // {2}", field.dataType, field.dataName, field.dataDesc);
+                if (field.dataForm.ToLower() == "skip") continue;
+                stringBuilder.AppendFormat("\tpublic {0} {1}; // {2}", field.dataType , field.dataName , field.dataDesc);
                 stringBuilder.AppendLine();
+                if (field.dataForm.ToLower() == "key")
+                {
+                    hasKey = true;
+                }
             }
             stringBuilder.AppendLine("}");
             stringBuilder.AppendLine();
             stringBuilder.AppendFormat("public class {0} : BaseCFG\r\n{{", fileName + "CFG");
             stringBuilder.AppendLine();
-            stringBuilder.AppendFormat("\tstatic public Dictionary<string , {0}> items;", fileName + "Vo");
-            stringBuilder.AppendLine();
+            if (hasKey)
+            {
+                stringBuilder.AppendFormat("\tstatic public Dictionary<string , {0}> items = new Dictionary<string , {0}>();", fileName + "Vo");
+                stringBuilder.AppendLine();
+            }
+            else
+            {
+                stringBuilder.AppendFormat("\tstatic public List<{0}> items = new List<{0}>();", fileName + "Vo");
+                stringBuilder.AppendLine();
+            }
             stringBuilder.AppendLine();
             stringBuilder.AppendFormat("\tstatic private {0} _instance = new {0}();", fileName + "CFG");
             stringBuilder.AppendLine();
@@ -81,8 +96,41 @@ namespace ExcelTool
             stringBuilder.AppendLine();
             stringBuilder.AppendLine("\toverride public void Read(string str)");
             stringBuilder.AppendLine("\t{");
-            stringBuilder.AppendFormat("\t\titems = Json.Deserialize(str) as Dictionary<string, {0}>;", fileName + "Vo");
+            stringBuilder.AppendLine("\t\tList<object> jsons = Json.Deserialize(str) as List<object>;");
+            stringBuilder.AppendLine("\t\tfor (int i = 0; i < jsons.Count; i ++)");
+            stringBuilder.AppendLine("\t\t{");
+            stringBuilder.AppendLine("\t\t\tDictionary<string , object> data = jsons[i] as Dictionary<string , object>;");
             stringBuilder.AppendLine();
+            stringBuilder.AppendFormat("\t\t\t{0} vo = new {0}();" , fileName + "Vo");
+            stringBuilder.AppendLine();
+            string key = "";
+            foreach (FieldDef field in dataFiled)
+            {
+                if (field.dataForm.ToLower() == "skip") continue;
+                if (field.dataType == "string")
+                {
+                    stringBuilder.AppendFormat("\t\t\tvo.{0} = ({1})data[\"{0}\"];", field.dataName, field.dataType);
+                }
+                else
+                {
+                    stringBuilder.AppendFormat("\t\t\tvo.{0} = {1}.Parse((string)data[\"{0}\"]);", field.dataName, field.dataType);
+                }
+                if (field.dataForm.ToLower() == "key")
+                {
+                    key += (key != "" ? " + vo." : "vo.") + field.dataName + ".ToString()";
+                }
+                stringBuilder.AppendLine();
+            }
+            if (hasKey)
+            {
+                stringBuilder.AppendFormat("\t\t\titems.Add({0} , vo);", key);
+            }
+            else
+            {
+                stringBuilder.AppendFormat("\t\t\titems.Add(vo);");
+            }
+            stringBuilder.AppendLine();
+            stringBuilder.AppendLine("\t\t}");
             stringBuilder.AppendLine("\t}");
             stringBuilder.Append('}');
             stringBuilder.AppendLine();
@@ -119,7 +167,7 @@ namespace ExcelTool
             stringBuilder.AppendLine();
             foreach (FieldDef field in dataFiled)
             {
-                stringBuilder.AppendFormat("\tpublic {0} {1}; // {2}", field.dataType, field.dataName, field.dataDesc);
+                stringBuilder.AppendFormat("\tpublic {0} {1}; // {2}" , field.dataType , field.dataName , field.dataDesc);
                 stringBuilder.AppendLine();
             }
             stringBuilder.AppendLine("}");
@@ -188,7 +236,7 @@ namespace ExcelTool
             stringBuilder.AppendLine("// Copyright(c) Cao ChunYang  All rights reserved.");
             stringBuilder.AppendLine("//************************************************************");
             stringBuilder.AppendLine("using System;");
-            stringBuilder.AppendLine("using System.Collections.Generic;");
+            stringBuilder.AppendLine("using System.Collections.Generic;");    
             stringBuilder.AppendLine();
             stringBuilder.AppendLine("public class CfgFiles\r{");
             stringBuilder.AppendLine("\tstatic public Dictionary<String , BaseCFG> files = new Dictionary<String,BaseCFG>();");
