@@ -30,7 +30,7 @@ namespace ExcelTool
                     if (!string.IsNullOrEmpty(filed))
                     {
                         string value = sheet.Rows[i][sheet.Columns[c]].ToString();
-                        data.Add(filed, value == "" ? "0" : value);
+                        data.Add(filed, value);
                         point.SetAttribute(filed , value);
                     }
                 }

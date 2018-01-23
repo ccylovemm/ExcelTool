@@ -113,7 +113,7 @@ namespace ExcelTool
                 }
                 else
                 {
-                    stringBuilder.AppendFormat("\t\t\tvo.{0} = {1}.Parse((string)data[\"{0}\"]);", field.dataName, field.dataType);
+                    stringBuilder.AppendFormat("\t\t\tvo.{0} = {1}.Parse(((string)data[\"{0}\"] == \"\" ? \"0\" : (string)data[\"{0}\"]));", field.dataName, field.dataType);
                 }
                 if (field.dataForm.ToLower() == "key")
                 {
